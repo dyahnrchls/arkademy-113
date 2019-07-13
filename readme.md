@@ -47,3 +47,18 @@ cd 7
 nodemon index.js
 ```
 - buka localhost:1307 pada browser anda.
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/home.PNG)
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/add.PNG)
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/add-result.PNG)
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/edit.PNG)
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/edit-result.PNG)
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/delete.PNG)
+
+![Image of main page](https://github.com/dyahnrchls/arkademy-113/blob/master/7/delete-result.PNG)
+
