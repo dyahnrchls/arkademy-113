@@ -1,3 +1,13 @@
+let o = window.prompt("jenis operasi");
+let n = window.prompt("N");
+let a = window.prompt("array digit (tidak perlu [ ])");
+
+mrBruno(o, parseInt(n), a.split(","));
+
+// mrBruno("SUM",20,[11,13,15]);
+// mrBruno("MUL",20,[12,15,17]);
+// mrBruno("SUB",20,[3,21,26]);
+// mrBruno("DIV",20,[8,19,15]);
 
 function mrBruno(operasi, num, arr){
 
@@ -63,8 +73,3 @@ function mrBruno(operasi, num, arr){
     }
 
 }
-
-mrBruno("SUM",20,[11,13,15]);
-mrBruno("MUL",20,[12,15,17]);
-mrBruno("SUB",20,[3,21,26]);
-mrBruno("DIV",20,[8,19,15]);

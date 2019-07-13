@@ -1,37 +1,25 @@
-// function triangle(num){
-//     for(let i="*"; i.length <= num; i+="*"){
-//         console.log(i);    
-//     }
-// }
+let number = window.prompt("alas&tinggi");
+triangle(number);
 
-// triangle(7);
-
-// function triangle(num){
-//     let res = '';
-//     for(let i=1; i<=num; i++){
-//         for(let j=0; j<i; j++){
-//             res = res+'*';
-//         }
-//         console.log(res);
-//         res = '';
-//     }
-// }
-
-// triangle(7);
+// triangle(5);
 
 function triangle(num){
-    let res = '';
-    let x = 2;
-    for(let i=1; i<=num; i++){
-        for(let j=0; j<i; j++){
-            while(isPrime(x) == false){
+    if(0 < num < 10){
+        let res = '';
+        let x = 2;
+        for(let i=1; i<=num; i++){
+            for(let j=0; j<i; j++){
+                while(isPrime(x) == false){
+                    x++;
+                }
+                res = res+ ' ' +x;
                 x++;
             }
-            res = res+ ' ' +x;
-            x++;
+            console.log(res);
+            res = '';
         }
-        console.log(res);
-        res = '';
+    }else{
+        console.log("error");
     }
 }
 
@@ -49,5 +37,3 @@ function isPrime(n){
         return true;
     }
 }
-
-triangle(5);
