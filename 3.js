@@ -1,8 +1,28 @@
-// function searching(word){
-//     let coba = "banana";
-//     let cari = "na";
-//     console.log(coba.includes(cari));
-// }
-let coba = "bananana";
-    let cari = "na";
-    console.log(coba.includes(cari));
+let s = window.prompt("string");
+let f = window.prompt("frasa");
+hitungFrasa(s,f);
+
+// hitungFrasa("banananana","nana");
+
+function hitungFrasa(string, frasa){
+    let arr = [];
+    
+    for(let i=0; i<=(string.length-frasa.length);i++){
+        let temp = string[i];
+        for(let j=1; j<frasa.length;j++){
+            temp = temp + string[i+j];
+        }
+        arr.push(temp);
+        temp = temp.split("");
+        temp = temp.reverse();
+        temp = temp.join(""); 
+        arr.push(temp);
+    }
+    let count = 0;
+    for(let k=0; k<arr.length; k++){
+        if(arr[k] == frasa){
+            count++;
+        }
+    }
+    console.log("ditemukan " + count + " kali");
+}
