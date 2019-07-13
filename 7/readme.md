@@ -18,7 +18,7 @@
     * Node.js
 
 * Langkah Membuka No. 7
-    * clone/download file pada repository https://github.com/dyahnrchls/arkademy
+    * clone/download file pada repository https://github.com/dyahnrchls/arkademy-113
     * import database arkademy.sql pada database anda (saya menggunakan mysql pada xampp)
     * pastikan database telah terhubung
     * setelah database terhubung, buka folder 7 pada cmd
